@@ -1,0 +1,160 @@
+Séries Temporais
+
+Conceitos de estaística:
+
+- Qualitativos: atributos não numéricos.
+   - Nominais: sem ordem (raça, cor dos olhos etc..
+   - Ordinais: com ordem (grau de escolaridade, nivel de satisfação etc..
+- Quantitativos: números 
+   - Discreto: valores finitos ou enumeraveis: numero de pessoas na sala, numero de carros etc..
+   - Contínuo: Infinitos valores, renda, tempo, altura etc..
+
+-----
+
+Observação: elementos analisados não doram sujeitos a interferencia, ex pesquisa eleitoral
+
+Experimento: elementos foram manipulados: teste da vacina
+
+-----
+
+Amopstragem: medição de parte de uma população
+
+Censo: toda população
+
+Amostra Aleatória: Seleção aleatória
+
+Amostra tendenciosa: não representam a população e sim uma tendencia
+
+------
+
+Técnicas de amostragem:
+
+- Aleatória Simples: Seleção por sorteio
+
+- Estratificada: Divisão em grupos Ex: por região, classe social etc..
+
+- Conglomerado: Divisão da população de escolas estaduais por regiao
+
+- Sistemática: São ordenados numéricamente e depois selecionados aleatóriamente obedecendo uma ordem numérica ex: numeros pares
+----
+ FREQUENCIAS
+
+Frequencia absoluta , quantidade de vezes que aparce na amostra.
+
+Frequencia relativa, numero freq absoluta dividio pelo total da amostra
+
+Freq percentual relativa ( porcentagem da frequencia relativa)
+---
+GHráficos 
+
+Histograma utiliza fronteiras ex 6 - 18 fica de 5,5 até 18,5
+
+Poligomo de Frequencia - utiliza ponto medio das frequencias e plota
+
+Ogiva - Utiliza frequencia acumulada, sempre sobe 
+
+Pareto -
+
+--------------
+
+Medidas de tendencia Central:
+
+- Média - somatório dividido pelo numero total
+
+- Mediana - ponto centro das amostras, se tiver dois numeros é a media dos dois (tem que ser ordenado)
+
+- Moda - valor que aparece com mais frequencia, amodal nao tem nenhuma , bimodal tem duas e trimodal 3
+
+- Média de distribuição de frequencia , Somatório de (ponto médio x Frequencia) dividido pelo numero de pontos medios
+
+ - Alguns conceitos: 
+Negativamente assimétrica quando a média fica a esquerda da Moda e mediana
+Positivamente assimétrica é quando a media fica a direita ...
+
+MEDIDAS de DISPERSÃO ou VARIANCIA:
+
+- Amplitude, ponto max menos ponto min
+- Desvio, media menos ponto
+- Variancia, desvio ao quadrado (ou somatório dos desvios ao quadrado / por N
+- Desvio padrão populacional, raiz quadrada da variancia
+- Variancia Amostral - igual só que dividido por n-1
+- Desvio padrao amostral raiz quadrada variancia
+
+MEDIDAS DE POSIÇÃO 
+
+- Fractis - Divisão de conjunto de dados em partes iguais (Quartis, percentis, Mediana)
+Quartil - Divisão em quatro partes iguais com Q1 Q2 e Q3
+- Amplitude Interquartil (IQR) = Q3-Q1   
+Q2 = Mediana
+Bigode = inicio até Q1 e de Q3 até fim (BoxPlot)
+
+Analises de OUTLIERS
+- dados discrepantes(muito diferentes, muito alto ou baixo)
+- podem interferir, se não forem relevantes pode-se tirar ou substituir
+- Calculo Limite superior = Q +1,5xIQR
+-         Limite inferior = Q1-1,5xIQR
+
+-----
+
+Probabilidade nomenclaturas:
+- Experimento aleatório (estocastico): apresenta resultados imprevisiveis - Loteria
+- Experimento Determinístico: o resultado é previsivel (sequência numérica)
+- Espaço amostral - conjunro de todos resultados (espaço amostral 6 - são 6 valores)
+- Evento - Subconjunto do espaço amostral ex:numeros pares apenas
+
+------
+DISTRIBUIDÇÃO DE PROBABILIDADES:
+-Variáveis aleatórias: são quantitativas, valores estão associados a fatores aleatórios
+- Var aleat. Discreta: numero contável de possíveis resultados, ex numero de gols em uma partida etc..
+- Var aleat. Contínua: numero incontável de resultados ex:intervalo de tempo, temperatura altura etc..
+
+------
+
+TESTE DE HIPÓTESES:
+- Hipotese nula H0
+- HIpotese alternativa Ha
+
+REGRESSÃO LINEAR:
+- Linear negativa - vai desceno
+- Linear positiva - vai subindo (reta)
+- Sem relação
+- Correlação não linear ex, curva
+
+Coeficiente de PEARSON - para medir relação
+utilizando algoritimo
+r = 1 Perfeita
+r> 0,95 Muito forte
+r>0,8 Forte
+r>0,5 moderada
+menor Fraca
+
+---------------
+METRICAS DE ERRO
+- Erro absluto médio MAE
+- Raiz do erro quadrático médio RMSE
+Comparação de modelos:
+- AIC: Comparação Akaike
+- AICc: Akaike corrigido
+- BIC: Criteri de informação Bayesiano
+------------
+
+SERIES TEMPORAIS, oque extrair:
+- Analizar a origem
+- Previsões futuras
+- Descrição do comportamento
+- Analises da periodicidades e tendências
+----
+Podem ser 
+Discreta - periodo de tempo, anual, mensal etc..
+Continuas: eletrocardiograma, termometro que sempre mede temperatura.
+ univariada - uma variavel
+ multivariada - duas ou mais variadas
+Unidimensional - Somente tempo envolvida
+Multidimensional - tempo e localização (latitude etc..)
+----
+
+Covariancia-
+
+Estacionaridade  - não é quando, a media vai variando
+variancia não constante, quando se mantem a media porem aumenta muito a variancia, Box Cox metodo para diminui isso
+

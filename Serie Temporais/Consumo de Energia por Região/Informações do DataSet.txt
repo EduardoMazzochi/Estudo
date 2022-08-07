@@ -1,0 +1,4 @@
+Empresa de Pesquisa Energética - EPE
+Consumo de energia elétrica na rede (MWh)
+Sistema SIMPLES
+2004-2020
